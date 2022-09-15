@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
+.header {
+    overflow: hidden;   
+    padding: 20px 10px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.header a {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 10px;
+}
+.header-right{
+float: right;
+margin-top: 20px;
+}
+.carImage{
+    text-align: center;
+}
+.head h1{
+    text-align: center;
+    font-size: 60px;
+    color: #429fa5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.head p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(5, 96, 96);
+}
+button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(11, 154, 154);
+    border: 1px solid rgb(4, 107, 107);
+    font-size: 16px;
+    border-radius: 30px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400px;
+}
+@media (max-width:425px){
+    *{
+        box-sizing: border-box;
+    }
+    .header {
+        overflow: hidden;   
+        padding:  10px;
+        background-color: black;
+        width: 100%;
+        height: 100px;
+    }
+    .header a{
+        margin-left: 200px;
+    }
+    img{
+        width: 340px;
+        height: 280px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .head h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .head p{
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+    }
+}
