@@ -8,10 +8,11 @@
 .header {
     overflow: hidden;   
     padding: 20px 10px;
-    background-color: black;
+    background-color: hsl(311deg 64% 9%);
     width: 100%;
     height: 100px;
 }
+
 .header a {
     background-color: orangered;
     color: white;
@@ -63,14 +64,11 @@ button a{
     .header {
         overflow: hidden;   
         padding:  10px;
-        background-color: black;
+        background-color: hsl(311deg 64% 9%);
         width: 100%;
         height: 100px;
     }
-    .header a{
-        margin-left: 200px;
-    }
-    img{
+    .carImage img{
         width: 340px;
         height: 280px;
         margin-left: 20px;
